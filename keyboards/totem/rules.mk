@@ -1,3 +1,5 @@
+JSON_KEYBOARD_FILE = keyboards/totem/info.json
+
 # MCU name
 MCU = RP2040
 
@@ -13,6 +15,9 @@ LTO_ENABLE = no
 SPLIT_KEYBOARD = yes
 SWAP_HANDS_ENABLE = yes
 
+# USB Settings
+USB_DRIVER = yes
+
 # PIO serial/WS2812 drivers must be used on RP2040
 SERIAL_DRIVER = vendor
 WS2812_DRIVER = vendor
@@ -26,6 +31,6 @@ CONSOLE_ENABLE = no
 COMMAND_ENABLE = no
 MOUSEKEY_ENABLE = no
 SPACE_CADET_ENABLE = no
-GRAVE_ESC_ENABLE = no 
+GRAVE_ESC_ENABLE = no
 MAGIC_ENABLE = no
 
